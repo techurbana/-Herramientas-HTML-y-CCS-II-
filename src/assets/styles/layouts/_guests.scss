@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: url("/assets/images/scroll-background.png") no-repeat center top fixed; /* Fondo que llene pág, sin scroll */ /* fixed para evitar scroll */
+  background-size: cover;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  margin: 0 auto 35px auto;
+}
+
+.guests {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.guests__monster,
+.guests__monster:hover {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.guests__monster__title {
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: $font-family-serif;
+  line-height: 1.15rem;
+  padding-bottom: 5px;
+}
+
+.guests__monster__img {
+  display: block;
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+.guests__monster__text {
+  width: 150px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  //same as bootstrap xs
+  .guests {
+    width: 98%;
+  }
+}
