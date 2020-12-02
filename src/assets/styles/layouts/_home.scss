@@ -60,34 +60,35 @@ body {
     line-height: 30px;
   }
 
-  .cover__menu__list {
-    padding: 0;
-    font-size: 22px;
-
-    li {
-      padding-top: 15px;
-    }
-
-    .fas,
-    .fab {
-      font-size: 14px;
-    }
-
-    a {
-      color: black;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #555;
-      text-decoration: none;
-    }
-  }
-
   .cover__social {
     grid-area: 4 / 1 / 4 / 7;
   }
 }
+
+.cover__menu__list {
+  padding: 0;
+  font-size: 22px;
+
+  li {
+    padding-top: 15px;
+  }
+
+  .fas,
+  .fab {
+    font-size: 14px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #555;
+    text-decoration: none;
+  }
+}
+
 
 .cover__social {
   float: right;
