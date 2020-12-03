@@ -13,7 +13,6 @@
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 @import "@fortawesome/fontawesome-free/css/all.css";
-@import '../../../node_modules/reset-css/sass/reset';
 
 /**
  * Import layouts
@@ -22,6 +21,7 @@
 
 @import "layouts/home";
 @import "layouts/guests";
+@import "layouts/activities";
 
 /**
  * Do NOT include anything else in this file!

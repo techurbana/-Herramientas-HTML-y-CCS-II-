@@ -1,3 +1,32 @@
+
+.home {
+  margin: 0;
+  padding: 0;
+
+  h1,
+  h2,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  ol,
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #555;
+    text-decoration: none;
+  }
+}
+
 html,
 body {
   font-family: $font-family-serif;
@@ -77,18 +106,7 @@ body {
   .fab {
     font-size: 14px;
   }
-
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #555;
-    text-decoration: none;
-  }
 }
-
 
 .cover__social {
   float: right;
@@ -101,16 +119,6 @@ body {
     display: inline;
     color: black;
     margin: 0 15px;
-  }
-
-  a {
-    color: black;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #555;
-    text-decoration: none;
   }
 }
 
