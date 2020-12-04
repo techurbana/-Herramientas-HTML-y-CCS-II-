@@ -5,13 +5,8 @@ body {
   background-size: cover;
 }
 
-.header {
-  border-bottom: 1px solid black;
-  margin: 0 auto 35px auto;
-}
-
 .guests {
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,9 +45,11 @@ body {
 .guests__monster__text {
   width: 150px;
   margin: 0 auto;
+  font-size: 0.95rem;
+  text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   //same as bootstrap xs
   .guests {
     width: 98%;

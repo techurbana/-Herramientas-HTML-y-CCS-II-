@@ -9,19 +9,18 @@
  * see: https://en.parceljs.org/module_resolution.html
  * see commented examples below
  */
-
-// @import "some-node-module";
-// @import "@some-company/some-node-module";
 @import "@fortawesome/fontawesome-free/css/all.css";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 /**
  * Import layouts
  * It's a best practice to use a partial for each page
  */
-
 @import "layouts/home";
 @import "layouts/guests";
 @import "layouts/activities";
+
+@import "layouts/headfoot";
 
 /**
  * Do NOT include anything else in this file!
