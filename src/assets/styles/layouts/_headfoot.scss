@@ -1,34 +1,33 @@
-.header__logo{
+.header__logo {
   height: 80px;
   margin: 2px 0 10px 0;
 }
 
-.header__mainmenu{
+.header__mainmenu {
   border: 1px solid $primary;
 }
 
-.footer{
+.footer {
   border-top: 1px solid $primary;
+  margin-top: 30px;
 }
 
-.footer__logo{
+.footer__logo {
   height: 32px;
   margin-top: 2px;
   lighting-color: 80%;
 }
 
-.footer__links__item{
+.footer__links__item {
   display: inline-block;
   margin: 0 10px;
 }
 
-.footer__social{
+.footer__social {
   text-align: center;
 }
 
-.footer__social__item{
+.footer__social__item {
   display: inline-block;
   margin: 0 20px;
 }
-
-

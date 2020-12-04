@@ -2,7 +2,7 @@
  * Import variables
  */
 
-@import "variables";
+@import "variables";  //includes Bootstrap theming
 
 /**
  * Import npm dependencies
@@ -19,7 +19,6 @@
 @import "layouts/home";
 @import "layouts/guests";
 @import "layouts/activities";
-
 @import "layouts/headfoot";
 
 /**
